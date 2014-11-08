@@ -16,10 +16,10 @@
 	</p>
 	<div id="artPic"><img src="" alt="Art"></div>
 	<div id="quote">
-		<h5>Fly, fly fly high,<br>
+		<h4>Fly, fly fly high,<br>
 			up in the sky.<br>
 			Soar, soar,<br>
-			a little bit more.</h5></div>
+			a little bit more.</h4></div>
 	<div id="brainPic"><img src="" alt="BrainFact"></div>
 	<p>
 		Arts education is not available in the majority of Romanian schools serving less privileged communities and we are actively identifying these schools to address this need. School principals have been very supportive of our initiative and are willing to cooperate in implementing our programs as extracurricular activities. Our pilot classes in acting and public speaking involved 50 children from the elementary and middle school in Sura Mica, the Sibiu County. The classes raised a lot of enthusiasm among all constituencies, from children to parents, to participating teachers and instructors, and to the larger local community. A press release in Tribuna, the main Sibiu journal, announced our programs and also mentioned our involvement in holiday celebrations for the people of Sura Mica and the nearby villages.
