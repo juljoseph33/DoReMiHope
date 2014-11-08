@@ -16,7 +16,7 @@
 	</p>
 	<div id="artPic"><img src="" alt="Art"></div>
 	<div id="quote">
-		<h4>Fly, fly fly high,<br>
+		<h4>Fly, fly, fly high,<br>
 			up in the sky.<br>
 			Soar, soar,<br>
 			a little bit more.</h4></div>
