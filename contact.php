@@ -16,6 +16,7 @@
 	<p>
 		You can also find us on Facebook <a href="https://www.facebook.com/Doremihope" target="_blank">here</a>.
 	</p>
+	<h3>Email Form</h3>
 	<form name="input">
 		I am interested in donating:<br>
 		<input type="radio" name="donate" value="yes">Yes<br>
