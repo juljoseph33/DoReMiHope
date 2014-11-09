@@ -88,6 +88,7 @@ html, body {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  clear: both;
 }
 
 #aboutIntro{
@@ -95,6 +96,39 @@ html, body {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+}
+
+#artPic, #groupPic {
+  float: left;
+  margin-left: 10%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+#artPic img, #groupPic img {
+  width: 300px;
+}
+
+#quote {
+  margin: auto;
+  float: left;
+  padding-left: 2%;
+  color: #297ACC;
+  margin-top: 4%;
+}
+
+#brainPic {
+  float: right;
+  margin-right: 10%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+#brainPic img {
+  width: 300px;
+}
+
+#groupPic {
+  margin-left: 0%;
+  padding-top: 5%;
 }
 
 #contact h2 {
