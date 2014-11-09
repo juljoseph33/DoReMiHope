@@ -6,9 +6,10 @@
 </head>
 <body>
 	<div id="header">
-		<a href="./index.php">DOREMIHOPE</a>
+		<a href="./index.php"><span id="doremi">DOREMIHOPE</span></a>
 		<img src="Img/logocircle.png">
-		<?php include './menu.php';?>
+
+		<div class="menu"><?php include './menu.php';?></div>
 	</div>
 	<h2>Contact Us</h2>
 	<p>

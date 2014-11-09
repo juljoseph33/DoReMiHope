@@ -35,16 +35,45 @@ html, body {
 	margin-top: 40%;
 }
 
-#header a:link {
-	text-decoration: none;
-	display: inline;
-	color: #995B48;
-}
 
+
+
+#header a {
+	text-decoration: none;
+	color: #995B48;
+	font-weight: bold;
+	margin-left: 2%;
+	font-size: 1.2em;
+}
+#header a:hover {
+	color: #15AB00;
+}
+#header img {
+	width: 7%;
+	margin-top: 1%;
+	margin-left: -2%;
+}
+.menu {
+	margin-left: 18%;
+	margin-top: -5%;
+}
+#doremi {
+	display: inline-block;
+	float: left;
+	margin-top: 2.5%;
+	margin-left: 2%;
+}
 #header ul li {
 	display: inline;
+	margin-top: -3%;
+	margin-left: 10%;
+	margin-right: 2%;
 }
-#header ul li a {
-	text-decoration: none;
-	color: #995B48;
+
+#header {
+	background-color: #FFDEE3;
+	margin-top: -1%;
+	margin-left: -1%;
+	margin-right: -1%;
+	padding-bottom: 1%;
 }
