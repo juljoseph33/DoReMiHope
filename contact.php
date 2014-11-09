@@ -21,11 +21,11 @@
 	</p><br>
 	<h3>Email Form</h3>
 	<form name="input">
-		I am interested in donating:<br>
+		I am interested in donating:<br><br>
 		<input type="radio" id="yes" name="donate" value="yes">Yes
 		<input type="radio" id="no" name="donate" value="no">No<br><br>
-		<input type="email" id="email" name="email" placeholder="Email" size="50"><br><br>
-		<textarea name="message" id="message" placeholder="Message" rows="10" cols="80"></textarea><br>
+		<input type="email" id="email" required name="email" placeholder="Email" size="50"><br><br>
+		<textarea name="message" id="message" required placeholder="Message" rows="10" cols="80"></textarea><br>
 		<input type="submit" name="submit" value="Submit">
 	</form>
 	</div>

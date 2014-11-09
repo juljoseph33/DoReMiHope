@@ -82,6 +82,7 @@ html, body {
 
 #contact h2 {
 	color: #15AB00;
+	padding: 1%;
 }
 #contact #contactemail {
 	color: #15AB00;
@@ -89,6 +90,11 @@ html, body {
 #contact {
 	text-align: center;
 	color: #995B48;
+	background-color: #fffbfc;
+	border-radius: 5%;
+	margin-left: 7%;
+	margin-right: 7%;
+	padding-bottom: 2%;
 }
 #contact a {
 	color: #15AB00;
