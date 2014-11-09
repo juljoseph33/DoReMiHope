@@ -1,0 +1,35 @@
+html, body {
+  height: 100%;
+  font-family: "Lucida Grande", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+#index {
+	background-image: url("../Img/logo.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100% 100%;
+    z-index: -1;
+    position: fixed;
+}
+#title {
+	color: white;
+	text-align: center;
+	margin-top: 38%;
+	margin-left: 70%;
+	font-size: 230%;
+}
+#index ul li {
+	display: inline;
+}
+#index ul li a {
+	text-decoration: none;
+	color: white;
+	padding-right: 2em;
+	font-size: 140%;
+	font-weight: bold;
+}
+#index ul li a:hover {
+	color: #15AB00;
+}
+#menu {
+	margin-top: 40%;
+}

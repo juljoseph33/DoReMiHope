@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>DoReMiHope</title>
-	<link rel="stylesheet" type="text/css" href="../styles/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
 </head>
 <body>
 	<div id="header">
