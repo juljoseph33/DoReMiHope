@@ -91,7 +91,7 @@ html, body {
   clear: both;
 }
 
-#aboutIntro{
+#aboutIntro {
   width: 70%;
   text-align: center;
   margin-left: auto;
@@ -130,6 +130,38 @@ html, body {
   margin-left: 0%;
   padding-top: 5%;
 }
+
+
+#mediaTitle {
+  text-align: center;
+  margin: auto;
+}
+
+#media a {
+  text-decoration: none;
+}
+
+#media a:hover {
+  text-decoration: underline;
+}
+
+td {
+  width: 30%;
+  margin-top: 0;
+}
+
+figcaption {
+  font-size: 75%;
+  width: 75%;
+  margin: 2% auto;
+}
+
+figure img, iframe {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
 
 #contact h2 {
 	color: #15AB00;
