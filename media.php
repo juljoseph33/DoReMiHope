@@ -43,7 +43,7 @@
 				</td>
 				<td>
 					<div id="figure5"><figure>
-						<img src="Img/houses.jpg" alt="fig5">
+						<img src="Img/casasec.jpg" alt="fig5">
 						<figcaption>We have encouraged children's creativity: face-to-face assignments: the real and the creative house! Read the story in Reomanian <a href="http://povestiinspirationale.ro/incurajati-originalitatea/" class="green">here</a>.</figcaption>
 					</figure></div>
 				</td>
