@@ -7,7 +7,7 @@
 <body>
 	<div id="header">
 		<a href="./index.php"><span id="doremi">DOREMIHOPE</span></a>
-		<img src="Img/logocircle.png">
+		<img alt="logo" src="Img/logocircle.png">
 
 		<div class="menu"><?php include './menu.php';?></div>
 	</div>

@@ -142,7 +142,7 @@ html, body {
 #middle {
 	font-size: 1em;
 }
-#small {
+.small {
 	font-size: .9em;
 }
 #about h2 {
@@ -180,6 +180,14 @@ figcaption {
 figure img, iframe {
   width: 90%;
   margin: 0 auto;
+}
+
+iframe {
+	overflow: hidden;
+	border: none;
+	overflow-x: hidden;
+    overflow-y: hidden;
+    height: 100%;
 }
 
 
