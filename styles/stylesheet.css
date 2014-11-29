@@ -12,7 +12,12 @@ html, body {
     position: fixed;
 }
 #title {
-	color: #fffbfc;
+	color: #BECBB2;
+	text-shadow:
+   -2px -2px 0 #995B48,  
+    2px -2px 0 #995B48,
+    -2px 2px 0 #995B48,
+     2px 2px 0 #995B48;
 	text-align: center;
 	margin-top: 38%;
 	margin-left: 70%;
@@ -27,16 +32,21 @@ html, body {
 	padding-right: 2em;
 	font-size: 140%;
 	font-weight: bold;
+	text-shadow:
+    -1px -1px 0 #995B48,  
+    1px -1px 0 #995B48,
+    -1px 1px 0 #995B48,
+    1px 1px 0 #995B48;
 }
 #index ul li a:hover {
-	color: #15AB00;
+	color: #BECBB2;
 }
 #menu {
 	margin-top: 40%;
 }
 
 .green {
-  color:  #15AB00;
+  color: white;
 }
 
 
@@ -44,13 +54,13 @@ html, body {
 
 #header a {
 	text-decoration: none;
-	color: #995B48;
+	color: #BECBB2; /*#FFDEE3*/
 	font-weight: bold;
 	margin-left: 2%;
 	font-size: 1.4em;
 }
 #header a:hover {
-	color: #15AB00;
+	color: white; /*#15AB00*/
 }
 #header img {
 	width: 7%;
@@ -75,17 +85,27 @@ html, body {
 }
 
 #header {
-	background-color: #FFDEE3;
+	background-color: #995B48;
 	margin-top: -1%;
 	margin-left: -1%;
 	margin-right: -1%;
 	padding-bottom: 1%;
 }
 
+#about {
+	color: #BECBB2;
+}
 #about h2 {
   text-align: center;
   margin: auto;
   padding: 1%;
+  color: white;
+}
+#aboutText h4 {
+	text-align: left;
+	margin: auto;
+	padding: 1%;
+	color: white;
 }
 
 #aboutText {
@@ -107,7 +127,7 @@ html, body {
   float: left;
   margin-left: 10%;
   padding-right: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 4%;
 }
 #artPic img, #groupPic img {
   width: 300px;
@@ -117,7 +137,7 @@ html, body {
   margin: auto;
   float: left;
   padding-left: 2%;
-  color: #297ACC;
+  color: #BECBB2;
   margin-top: 4%;
 }
 
@@ -125,7 +145,6 @@ html, body {
   float: right;
   margin-right: 10%;
   padding-left: 5%;
-  padding-bottom: 5%;
 }
 #brainPic img {
   width: 300px;
@@ -138,6 +157,7 @@ html, body {
 
 #big {
 	font-size: 1.3em;
+	color: #BECBB2;
 }
 #middle {
 	font-size: 1em;
@@ -145,24 +165,26 @@ html, body {
 .small {
 	font-size: .9em;
 }
-#about h2 {
-	color: #15AB00;
+
+
+#media {
+	color: #BECBB2;
 }
-
-
 #mediaTitle {
   text-align: center;
   margin: auto;
   padding: 1%;
+  color: white;
 }
 
 #media a {
   text-decoration: none;
+  color: white;
 }
 
 #media a:hover {
   text-decoration: underline;
-  color: #BECBB2;
+  color: #15AB00;
 }
 
 td {
@@ -192,26 +214,33 @@ iframe {
 
 
 
-#contact h2 {
-	color: #15AB00;
+#contact h2, h3 {
+	color: white;
 	padding: 1%;
 }
-#contact #contactemail {
-	color: #15AB00;
-}
+/*#contact #contactemail {
+	color: white;
+}*/
 #contact, #about, #media {
 	margin-top: 2%;
 	text-align: center;
-	color: #995B48;
-	background-color: #fffbfc;
+/*	color: white;*/
+	background-color: #995B48;
 	border-radius: 5%;
 	margin-left: 7%;
 	margin-right: 7%;
 	padding-bottom: 2%;
 }
-#contact a {
-	color: #15AB00;
-}
-#contact a:hover {
+#contact {
 	color: #BECBB2;
 }
+#contact a {
+	color: white;
+	text-decoration: none;
+}
+#contact a:hover {
+	color: #15AB00;
+}
+/*#contact img {
+	width: 5%;
+}*/

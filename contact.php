@@ -18,9 +18,10 @@
 	</p>
 	<p>
 		You can also find us on Facebook <a href="https://www.facebook.com/Doremihope" target="_blank">here</a>.
-	</p><br>
+	</p>
+<!-- 	<a href="https://www.facebook.com/Doremihope" target="_blank"><img src="Img/facebook.png"></a> -->
 	<h3>Email Form</h3>
-	<form name="input" method="post">
+	<form name="input" method="post" action="thankYouPage.php">
 		I am interested in donating:<br><br>
 		<input type="radio" id="yes" name="donate" value="yes">Yes
 		<input type="radio" id="no" name="donate" value="no">No<br><br>
