@@ -172,21 +172,6 @@ html, body {
 	font-size: .9em;
 }
 
-/* Here's some stuff for the ticker and news page */
-#ticker {
-  width: 40%;
-  margin: auto;
-}
-
-#ticker #text p {
-  outline: solid #BECBB2 1px;
-  padding: 2%;
-  border-radius: 99%;
-}
-#news {
-  color: #BECBB2;
-}
-
 
 #media {
 	color: #BECBB2;
@@ -258,7 +243,7 @@ td p {
 /*#contact #contactemail {
 	color: white;
 }*/
-#contact, #about, #media, #news {
+#contact, #about, #media {
 	margin-top: 2%;
 	text-align: center;
 /*	color: white;*/
