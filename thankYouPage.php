@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
 </head>
 <body>
-	<div id="header" class="repeat">
+	<div id="header">
 		<a href="./index.php"><span id="doremi">DOREMIHOPE</span></a>
 		<img src="Img/logocircle.png">
 
