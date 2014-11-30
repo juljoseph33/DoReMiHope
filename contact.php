@@ -3,8 +3,11 @@
 <head>
 	<title>DoReMiHope</title>
 	<link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="JS/backstretch.js"></script>
+	<script src="JS/style.js"></script>
 </head>
-<body>
+<body class="repeat">
 	<div id="header">
 		<a href="./index.php"><span id="doremi">DOREMIHOPE</span></a>
 		<img alt="logo" src="Img/logocircle.png">
@@ -12,6 +15,10 @@
 		<div class="menu"><?php include './menu.php';?></div>
 	</div>
 	<div id="contact">
+	<h2>HOW YOU CAN HELP</h2>
+	<p id="help">We are open to donations of any amount to help provide for more classes, teachers, and materials for the kids.
+	Let's bring smiles to those children, brighten their futures, and branch out to other cities and countries! 
+	If you are interested in donating, please fill out the form below so we can contact you with more details! Thank you!</p>
 	<h2>CONTACT US</h2>
 	<p>
 		Send us an email at <span id="contactemail">info@doremihope.org</span>!
