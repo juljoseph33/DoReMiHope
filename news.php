@@ -17,7 +17,7 @@
 
 	<div id="news">
 		<h2>News</h2>
-		<div id="ticker"><?php include 'ticker.html';?></div>
+		<div id="ticker"><?php include 'ticker.php';?></div>
 	</div>
 	
 	<h2>Community Forum</h2>
