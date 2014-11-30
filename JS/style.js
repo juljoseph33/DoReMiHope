@@ -6,7 +6,7 @@ $(document).ready(function() {
 			$('#'+num).text(' Read Less');
 		}
 		else {
-			$('#'+num).text('...Read More');
+			$('#'+num).text(' ...Read More');
 		}
     });
  //    var width = $(window).width()/2 + ' px';
