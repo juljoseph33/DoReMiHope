@@ -15,6 +15,11 @@
 		<div class="menu"><?php include './menu.php';?></div>
 	</div>
 
+	<div id="news">
+		<h2>News</h2>
+		<div id="ticker"><?php include 'ticker.html';?></div>
+	</div>
+	
 	<h2>Community Forum</h2>
 	<div id="forum">
 	<a class="muut" href="https://muut.com/i/DoReMiHope">Your Community Title</a>
