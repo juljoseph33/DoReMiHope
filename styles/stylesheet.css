@@ -113,6 +113,7 @@ html, body {
   margin: auto;
   padding: 1%;
   color: white;
+  padding-top: 2%;
 }
 #aboutText h4 {
 	text-align: left;
@@ -250,6 +251,9 @@ td p {
 	color: white;
 	padding: 1%;
 }
+#contact h2, #thanks h2 {
+	padding-top: 2%;
+}
 /*#contact #contactemail {
 	color: white;
 }*/
@@ -273,6 +277,10 @@ td p {
 #contact a:hover, #thanks a:hover {
 	color: #15AB00;
 }
+/*#req {
+	color: white;
+}*/
+
 #thanks {
 	margin-top: 5%;
 }

@@ -1,3 +1,52 @@
+<?php
+	$email = "";
+	$message = "";
+	$donate = "";
+	$emailerror = "";
+	$messageerror = "";
+	$yes = "";
+	$no = "";
+	$success = TRUE;
+	function check_if_radio($answer, $var, $checked) {
+        if ($answer == $var) {
+            $checked = "checked";
+        }
+        return $checked;
+    }
+    if (isset($_POST["submit"])) {
+    	$success = FALSE;
+    	if (isset($_POST["email"]) && !empty($_POST["email"])) {
+    		$email = trim($_POST["email"]);
+    	}
+    	else {
+    		$emailerror .= " Please enter an email.";
+    	}
+    	if (!filter_var($email, FILTER_VALIDATE_EMAIL) && !empty($email)) {
+            $emailerror .= " This is not a valid email address.";
+        }
+    	if (isset($_POST["message"]) && !empty($_POST["message"])) {
+    		$message = htmlspecialchars(strip_tags(trim($_POST["message"])));
+    	}
+    	else {
+    		$messageerror .= " Please enter a message.";
+    	}
+    	if (isset($_POST["donate"]) && !empty($_POST["donate"])) {
+    		$donate = $_POST["donate"];
+    	}
+    	$yes = check_if_radio($donate, "yes", $yes);
+    	$no = check_if_radio($donate, "no", $no);
+    	if (empty($emailerror) && empty($messageerror)) {
+            $success = TRUE;
+        }
+        if($success) { 
+            //mail function using email, message, and radio button
+            header('Location: thankYouPage.php');
+            exit();
+        }
+    }
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,12 +77,15 @@
 	</p>
 <!-- 	<a href="https://www.facebook.com/Doremihope" target="_blank"><img src="Img/facebook.png"></a> -->
 	<h3>Email Form</h3>
-	<form name="input" method="post" action="thankYouPage.php">
-		I am interested in donating:<br><br>
-		<input type="radio" id="yes" name="donate" value="yes">Yes
-		<input type="radio" id="no" name="donate" value="no">No<br><br>
-		<input type="email" id="email" required name="email" placeholder="Email" size="50"><br><br>
-		<textarea name="message" id="message" required placeholder="Message" rows="10" cols="80"></textarea><br>
+	<form name="input" method="post" novalidate>
+		I am interested in hearing more about donating:<br><br>
+		<input type="radio" id="yes" name="donate" value="yes" <?php echo $yes;?> >Yes
+		<input type="radio" id="no" name="donate" value="no" <?php echo $no;?> >No<br><br><br>
+		<em id="req">The following fields are required</em><br><br>
+		<input type="email" id="email" required name="email" placeholder="Email" size="50" value='<?php echo $email;?>'><br>
+		<div class="green"><?php echo $emailerror;?></div><br>
+		<textarea name="message" id="message" required placeholder="Message" rows="10" cols="60"><?php echo $message;?></textarea><br>
+		<div class="green"><?php echo $messageerror;?></div><br>
 		<input type="submit" name="submit" value="Submit">
 	</form>
 	</div>
