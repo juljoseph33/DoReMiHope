@@ -91,10 +91,18 @@ html, body {
 
 #header {
 	background-color: #995B48;
-	margin-top: -1%;
+	top: 0;
 	margin-left: -1%;
-	margin-right: -1%;
-	padding-bottom: 1%;
+	margin-right: -2%;
+	/*padding-bottom: 1%;*/
+	height: 14%;
+	width: 103%;
+	position: fixed;
+	z-index: 99999;
+	opacity: 0.8;
+}
+.repeat {
+	margin-top: 10%;
 }
 
 #about {
