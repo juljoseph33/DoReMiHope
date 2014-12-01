@@ -284,6 +284,7 @@ td p {
 	/*background-color: #BECBB2;*/
 	margin-right: 5%;
 	margin-left: 5%;
+	color: #BECBB2;
 }
 #ticker {
   width: 40%;
@@ -296,4 +297,13 @@ td p {
 }
 #ticker {
   color: #BECBB2;
+}
+.muut .m-seed .m-facelink, .muut .m-header .m-selected {
+  background-color: #BECBB2;
+}
+/*.m-sidebar, .m-forums .m-links {
+	color: #BECBB2;
+}*/
+.m-wrap {
+	color: #BECBB2;
 }
