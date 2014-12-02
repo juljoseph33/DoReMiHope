@@ -41,6 +41,7 @@
         if($success) { 
             //mail function using email, message, and radio button
             //mail("info@doremihope.org", "Interested in donating: "+$donate, "From: "+$email+"\n\n"+$message);
+            mail('jrj85@cornell.edu', 'Interested in donating: '.$donate, 'From: '.$email."\n\n".$message);
             header('Location: thankYouPage.php');
             exit();
         }
