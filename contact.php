@@ -77,7 +77,7 @@
 	</p>
 <!-- 	<a href="https://www.facebook.com/Doremihope" target="_blank"><img src="Img/facebook.png"></a> -->
 	<h3>Email Form</h3>
-	<form name="input" method="post" novalidate>
+	<form name="input" method="post">
 		I am interested in hearing more about donating:<br><br>
 		<input type="radio" id="yes" name="donate" value="yes" <?php echo $yes;?> >Yes
 		<input type="radio" id="no" name="donate" value="no" <?php echo $no;?> >No<br><br><br>
