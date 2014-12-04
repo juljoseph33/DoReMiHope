@@ -370,9 +370,9 @@ X       X  X
       -2px 2px 0 #995B48,
        2px 2px 0 #995B48;
 	  text-align: center;
-	  margin-top: 20%;
-	  margin-left: 70%;
-	  font-size: 230%;
+	  margin-top: 10%;
+	  margin-left: 10%;
+	  font-size: 130%;
   }
   #index ul li {
 	  display: inline;
@@ -380,8 +380,8 @@ X       X  X
   #index ul li a {
 	  text-decoration: none;
 	  color: white;
-	  padding-right: 2em;
-	  font-size: 140%;
+	  padding-right: 1em;
+	  font-size: 120%;
 	  font-weight: bold;
 	  text-shadow:
       -1px -1px 0 #995B48,  
@@ -393,7 +393,7 @@ X       X  X
 	  color: #BECBB2;
   }
   #menu {
-	  margin-top: 20%;
+	  margin-top: 40%;
   }
   
   .green {
