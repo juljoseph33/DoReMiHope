@@ -414,13 +414,13 @@ X       X  X
 	  color: white; /*#15AB00*/
   }
   #header img {
-	  width: 7%;
+	  width: 6%;
 	  margin-top: 1%;
 	  margin-left: -2%;
   }
   .menu {
-	  margin-left: 32%;
-	  margin-top: -8%;
+	  margin-left: 22%;
+	  margin-top: -8.5%;
   }
   #doremi {
 	  display: inline-block;
@@ -484,31 +484,26 @@ X       X  X
   }
   
   #artPic, #groupPic {
-    float: left;
-    margin-left: 10%;
-    padding-right: 5%;
+    margin: auto;
     padding-bottom: 4%;
+    clear: both;
   }
   #artPic img, #groupPic img {
     width: 70%;
   }
   
   #quote {
-    margin: auto;
-    float: left;
-    padding-left: 2%;
+    margin: 4% auto;
+    width: 80%;
     /*color: #BECBB2;*/
     color: white;
-    margin-top: 4%;
   }
   
   #brainPic {
-    float: right;
-    margin-right: 10%;
-    padding-left: 5%;
+    margin: auto;
   }
   #brainPic img {
-    width: 300px;
+    width: 70%;
   }
   
   #groupPic {
