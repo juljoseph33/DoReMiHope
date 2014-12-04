@@ -1,4 +1,4 @@
-@media (min-width: 800px) {}
+@media (min-width: 641px) {
   html, body {
     height: 100%;
     font-family: "Lucida Grande", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
@@ -343,7 +343,7 @@ X       X  X
 
 
 
-@media (max-width: 799px) {
+@media (max-width: 640x) {
   html, body {
     height: 100%;
     font-family: "Lucida Grande", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
