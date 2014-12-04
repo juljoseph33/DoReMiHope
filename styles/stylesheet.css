@@ -419,20 +419,20 @@ X       X  X
 	  margin-left: -2%;
   }
   .menu {
-	  margin-left: 18%;
-	  margin-top: -5%;
+	  margin-left: 32%;
+	  margin-top: -8%;
   }
   #doremi {
 	  display: inline-block;
 	  float: left;
-	  margin-top: 2.5%;
-	  margin-left: 2%;
+	  margin-top: 1.5%;
+	  margin-left: 1%;
   }
   #header ul li {
-	  display: inline;
-	  margin-top: -3%;
-	  margin-left: 10%;
+	  display: inline-block;
+	  margin-left: 2%;
 	  margin-right: 2%;
+	  font-size: .65em;
   }
   
   #header {
