@@ -99,7 +99,7 @@ html, body {
 	width: 103%;
 	position: fixed;
 	z-index: 99999;
-	opacity: 0.8;
+	/*opacity: 0.8;*/
 }
 .repeat {
 	margin-top: 10%;
