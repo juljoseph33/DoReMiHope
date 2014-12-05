@@ -427,12 +427,14 @@ X       X  X
 	  float: left;
 	  margin-top: 1.5%;
 	  margin-left: 1%;
+	  font-size: .7em;
   }
   #header ul li {
 	  display: inline-block;
-	  margin-left: 2%;
-	  margin-right: 2%;
-	  font-size: .65em;
+	  margin-left: 2.5%;
+	  margin-right: 2.5%;
+	  margin-top: 2%;
+	  font-size: .7em;
   }
   
   #header {
@@ -441,7 +443,7 @@ X       X  X
 	  margin-left: -1%;
 	  margin-right: -2%;
 	  /*padding-bottom: 1%;*/
-	  height: 14%;
+	  height: 2.5em;
 	  width: 103%;
 	  position: fixed;
 	  z-index: 99999;
