@@ -426,13 +426,13 @@ X       X  X
 	  display: inline-block;
 	  float: left;
 	  margin-top: 1.5%;
-	  margin-left: 1%;
+	  margin-left: 2%;
 	  font-size: .7em;
   }
   #header ul li {
 	  display: inline-block;
-	  margin-left: 2.5%;
-	  margin-right: 2.5%;
+	  margin-left: 5%;
+	  margin-right: 3%;
 	  margin-top: 2%;
 	  font-size: .7em;
   }
@@ -440,7 +440,7 @@ X       X  X
   #header {
 	  background-color: #995B48;
 	  top: 0;
-	  margin-left: -1%;
+	  margin-left: -2%;
 	  margin-right: -2%;
 	  /*padding-bottom: 1%;*/
 	  height: 2.5em;
