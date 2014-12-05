@@ -343,7 +343,7 @@ X       X  X
 
 
 
-@media (max-width: 640x) {
+@media (max-width: 640px) {
   html, body {
     height: 100%;
     font-family: "Lucida Grande", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
@@ -356,11 +356,11 @@ X       X  X
   }*/
   #index{
 	  background-image: url("../Img/logo.png");
-      background-repeat: no-repeat;
-      background-position: left top;
-      background-size: 100% 100%;
-      z-index: -1;
-      position: fixed;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100% 100%;
+    z-index: -1;
+    position: fixed;
   }
   #title {
 	  color: #BECBB2;
@@ -585,7 +585,7 @@ X       X  X
 	  display: none;
   }
   td p {
-	  margin-top: 27%;
+	  margin-top: 15%;
 	  color: white;
 	  font-weight: bold;
   }
